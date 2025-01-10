@@ -1,0 +1,14 @@
+- das Programm soll Aufgaben anzeigen koennen.
+- ein Benutzer soll neue Aufgaben erstellen koennen.
+- ein Benutzer soll Aufgaben "erledigen" (loeshen) koennen.
+
+- eine Aufgabe besteht aus einer Beschreibung (string) und einem Check-Box (boolean). 
+  String + bool gibt's nicht - dann brauchen wir eine eigene Klasse.
+
+- Die Aufgaben sollen durch eine eigene Klasse (Task) abgebildet werden.
+- Das Programm braucht 3 Funktionen: show_tasks(), create_task(), delete_task().
+- show_tasks() zeigt eine Liste der Aufgaben mit Index, Beschreibung und dem Wert "delete".
+- delete_task() loescht die Aufgabe des Index i. 
+- create_task() erfordert eine Beschreibung.
+
+
