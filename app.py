@@ -20,11 +20,10 @@ def show_tasks():
 
 show_tasks()
 while True:
-    user_input = input("Was moechten Sie machen? Aufgabe erstellen - n, Aufgabe loeschen - d: ")
+    user_input = input("Was moechten Sie machen? Aufgabe erstellen - n, Aufgabe loeschen - d, Ende - e: ")
     if user_input == "n":
         create_task()
-        show_tasks()
-        
+        show_tasks()        
 
     if user_input == "d" and len(tasks) > 0:
         run = True
@@ -37,4 +36,7 @@ while True:
             else:
                 print("Keine gueltige Eingabe.")
                 show_tasks()
+
+    if user_input == "e":
+        break
     
